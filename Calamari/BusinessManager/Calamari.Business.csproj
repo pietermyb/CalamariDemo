@@ -7,8 +7,8 @@
     <ProjectGuid>{0FD8856D-0472-4CA4-AD61-3281702D8496}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BusinessManager</RootNamespace>
-    <AssemblyName>BusinessManager</AssemblyName>
+    <RootNamespace>Calamari.Business</RootNamespace>
+    <AssemblyName>Calamari.Business</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

@@ -7,8 +7,8 @@
     <ProjectGuid>{C70F550D-CF7A-4BB3-82E7-E05A52E527B6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DataRepository</RootNamespace>
-    <AssemblyName>DataRepository</AssemblyName>
+    <RootNamespace>Calamari.Repository</RootNamespace>
+    <AssemblyName>Calamari.Repository</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

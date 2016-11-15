@@ -9,11 +9,17 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "CalamariDB", "CalamariDB\Ca
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business Layer", "Business Layer", "{E6B4BCF0-4915-453C-A783-3261C37385C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessManager", "BusinessManager\BusinessManager.csproj", "{0FD8856D-0472-4CA4-AD61-3281702D8496}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calamari.Business", "BusinessManager\Calamari.Business.csproj", "{0FD8856D-0472-4CA4-AD61-3281702D8496}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Layer", "Data Layer", "{F39441A8-6373-4CBA-AF7B-8A63A2F652EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataRepository", "ProductRepository\DataRepository.csproj", "{C70F550D-CF7A-4BB3-82E7-E05A52E527B6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calamari.Repository", "ProductRepository\Calamari.Repository.csproj", "{C70F550D-CF7A-4BB3-82E7-E05A52E527B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calamari.Tests", "Calamari.Tests\Calamari.Tests.csproj", "{B0AE8544-6D92-4A70-BC7C-25B0A6D056C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{99AD223B-05CB-4702-BDED-DC19F557D8A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{3A9221DF-D39C-48B0-973F-B575CB340A01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,12 +45,19 @@ Global
 		{C70F550D-CF7A-4BB3-82E7-E05A52E527B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C70F550D-CF7A-4BB3-82E7-E05A52E527B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C70F550D-CF7A-4BB3-82E7-E05A52E527B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0AE8544-6D92-4A70-BC7C-25B0A6D056C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0AE8544-6D92-4A70-BC7C-25B0A6D056C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0AE8544-6D92-4A70-BC7C-25B0A6D056C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0AE8544-6D92-4A70-BC7C-25B0A6D056C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{2D1BB34B-6828-4860-B7CC-5063B929CB85} = {3A9221DF-D39C-48B0-973F-B575CB340A01}
+		{1290833B-D13F-40E2-ADA4-2CC9548E23DF} = {F39441A8-6373-4CBA-AF7B-8A63A2F652EE}
 		{0FD8856D-0472-4CA4-AD61-3281702D8496} = {E6B4BCF0-4915-453C-A783-3261C37385C2}
 		{C70F550D-CF7A-4BB3-82E7-E05A52E527B6} = {F39441A8-6373-4CBA-AF7B-8A63A2F652EE}
+		{B0AE8544-6D92-4A70-BC7C-25B0A6D056C8} = {99AD223B-05CB-4702-BDED-DC19F557D8A2}
 	EndGlobalSection
 EndGlobal

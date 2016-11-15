@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BusinessManager
+namespace Calamari.Business
 {
     public class ProductManger
     {
+
     }
 }
