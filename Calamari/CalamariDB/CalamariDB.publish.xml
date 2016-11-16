@@ -4,6 +4,7 @@
     <IncludeCompositeObjects>True</IncludeCompositeObjects>
     <TargetDatabaseName>Calamari</TargetDatabaseName>
     <DeployScriptFileName>CalamariDB.sql</DeployScriptFileName>
+    <BlockOnPossibleDataLoss>False</BlockOnPossibleDataLoss>
     <TargetConnectionString>Data Source=(LocalDB)\v11.0;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=True</TargetConnectionString>
     <ProfileVersionNumber>1</ProfileVersionNumber>
   </PropertyGroup>

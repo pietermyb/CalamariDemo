@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <Name>CalamariDB</Name>
+    <Name>Calamari.CalamariDB</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{1290833b-d13f-40e2-ada4-2cc9548e23df}</ProjectGuid>
@@ -70,5 +70,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="CalamariDB.publish.xml" />
+    <None Include="DEV.publish.xml" />
+    <None Include="UAT.publish.xml" />
   </ItemGroup>
 </Project>

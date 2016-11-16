@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "CalamariDB", "CalamariDB\CalamariDB.sqlproj", "{1290833B-D13F-40E2-ADA4-2CC9548E23DF}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Calamari.CalamariDB", "CalamariDB\Calamari.CalamariDB.sqlproj", "{1290833B-D13F-40E2-ADA4-2CC9548E23DF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Layer", "Data Layer", "{F39441A8-6373-4CBA-AF7B-8A63A2F652EE}"
 EndProject
