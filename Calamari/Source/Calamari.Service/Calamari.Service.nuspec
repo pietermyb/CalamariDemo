@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Calamari.Service</id>
+    <version>1.0.0.0</version>
+    <title>Calamari.Service</title>
+    <authors>Pieter Myburgh</authors>
+    <owners>EOH MC</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A Sample Entity Service</description>
+    <copyright>Copyright 2016</copyright>
+    <dependencies>
+      <dependency id="EntityFramework" version="[6.1.3,7.0.0)" />
+      <dependency id="GenericRepository" version="[0.2.1.0,1.0.0)" />
+      <dependency id="GenericRepository.EF" version="[0.2.1.0,1.0.0)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Bin\Release\Calamari.Service.dll" target="lib\net45\Calamari.Service.dll"/>
+    <file src="Bin\Release\Calamari.Service.pdb" target="lib\net45\Calamari.Service.pdb"/>
+  </files>
+</package>

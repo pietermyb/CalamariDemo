@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Calamari.Tests")]
+[assembly: AssemblyTitle("Calamari.Service")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Calamari.Tests")]
+[assembly: AssemblyProduct("Calamari.Service")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("b0ae8544-6d92-4a70-bc7c-25b0a6d056c8")]
+[assembly: Guid("1f53c0f4-d0fa-4b64-9b16-25218e04a6cb")]
 
 // Version information for an assembly consists of the following four values:
 //
