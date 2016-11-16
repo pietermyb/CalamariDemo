@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Reflection;
 
-namespace Calamari.Configuration
+namespace Calamari.ClientPortal.Configuration
 {
     /// <summary>
     /// Di Wiring for Service Layer

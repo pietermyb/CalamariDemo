@@ -1,6 +1,6 @@
 ﻿using System.Web.Optimization;
 
-namespace Calamari
+namespace Calamari.ClientPortal
 {
     public class BundleConfig
     {

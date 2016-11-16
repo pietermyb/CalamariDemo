@@ -1,11 +1,9 @@
-﻿using Moq;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Calamari.Service;
-using Calamari.Repository;
-using Calamari.Service.Contracts;
+﻿using Calamari.Models;
 using Calamari.Repository.Contracts;
-using System.Collections.Generic;
-using Calamari.Models;
+using Calamari.Service;
+using Calamari.Service.Contracts;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Moq;
 using System.Linq;
 
 namespace Calamari.Tests.Services
@@ -16,7 +14,6 @@ namespace Calamari.Tests.Services
     [TestClass]
     public class ProductServiceTests
     {
-
         private ProductService _productService;
         private Mock<IProductRepository> _productRepo;
         private Mock<IUnitOfWork> _unitOfWork;
@@ -31,7 +28,7 @@ namespace Calamari.Tests.Services
             _getByIdResult = new Mock<Product>();
             _getAllResult = new Mock<IQueryable<Product>>();
         }
-        
+
         [TestMethod]
         [TestCategory("Service - Product")]
         public void ProductService_GetByID_Success()

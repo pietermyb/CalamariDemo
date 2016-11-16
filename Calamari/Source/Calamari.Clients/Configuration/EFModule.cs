@@ -4,7 +4,7 @@ using Calamari.Service;
 using Calamari.Service.Contracts;
 using System.Data.Entity;
 
-namespace Calamari.Configuration
+namespace Calamari.ClientPortal.Configuration
 {
     /// <summary>
     /// EF DI Wiring

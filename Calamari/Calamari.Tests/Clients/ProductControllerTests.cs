@@ -12,8 +12,8 @@ namespace Calamari.Tests
     public class ProductControllerTest
     {
         private Mock<IProductService> _ProductServiceMock;
-        ProductController objController;
-        List<Product> listProduct;
+        private ProductController objController;
+        private List<Product> listProduct;
 
         [TestInitialize]
         public void Initialize()
@@ -39,10 +39,9 @@ namespace Calamari.Tests
                 Name = "Steaks", Description = "1Kg Calamari steaks.",
                 Price = 120
             }
-
           };
         }
-        
+
         [TestMethod]
         [TestCategory("Controller - Product")]
         public void Product_Get_All()
@@ -58,8 +57,6 @@ namespace Calamari.Tests
             Assert.AreEqual("Battered Rings", result[0].Name);
             Assert.AreEqual("Griller Rings", result[1].Name);
             Assert.AreEqual("Steaks", result[2].Name);
-
         }
-        
     }
 }

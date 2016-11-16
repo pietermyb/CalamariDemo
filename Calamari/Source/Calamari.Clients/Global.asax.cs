@@ -1,11 +1,11 @@
 ﻿using Autofac;
 using Autofac.Integration.Mvc;
-using Calamari.Configuration;
+using Calamari.ClientPortal.Configuration;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 
-namespace Calamari
+namespace Calamari.ClientPortal
 {
     public class MvcApplication : System.Web.HttpApplication
     {

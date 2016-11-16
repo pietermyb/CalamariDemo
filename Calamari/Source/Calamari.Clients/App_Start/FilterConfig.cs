@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace Calamari
+namespace Calamari.ClientPortal
 {
     public class FilterConfig
     {

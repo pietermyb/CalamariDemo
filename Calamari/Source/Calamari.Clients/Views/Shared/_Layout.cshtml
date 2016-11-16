@@ -1,4 +1,9 @@
-﻿<!DOCTYPE html>
+﻿@using System.Web.Configuration;
+@{ 
+    var environment = WebConfigurationManager.AppSettings["EnvironmentName"];
+    var AppName = string.Format("Calamari - {0}", environment);
+}
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -16,7 +21,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink(AppName, "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">

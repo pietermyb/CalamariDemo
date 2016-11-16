@@ -4,7 +4,6 @@ namespace Calamari.ClientPortal.Controllers
 {
     public class HomeController : Controller
     {
-        
         public ActionResult Index()
         {
             return View();
@@ -23,7 +22,5 @@ namespace Calamari.ClientPortal.Controllers
 
             return View();
         }
-
-        
     }
 }
