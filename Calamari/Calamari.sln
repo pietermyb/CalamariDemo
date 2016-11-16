@@ -21,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calamari.Models", "Source\C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calamari.Repository", "Source\Calamari.Repository\Calamari.Repository.csproj", "{C70F550D-CF7A-4BB3-82E7-E05A52E527B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calamari", "Source\Calamari.Clients\Calamari.csproj", "{2D1BB34B-6828-4860-B7CC-5063B929CB85}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calamari.ClientPortal", "Source\Calamari.Clients\Calamari.ClientPortal.csproj", "{2D1BB34B-6828-4860-B7CC-5063B929CB85}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{491A2328-2A05-49B9-A676-F749D0DBF81B}"
 EndProject

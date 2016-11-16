@@ -3,7 +3,7 @@ using GenericRepository;
 
 namespace Calamari.Repository.Contracts
 {
-    internal interface IProductRepository : IRepository<Product>
+    public interface IProductRepository : IRepository<Product>
     {
         Product GetSingle(int Id);
     }

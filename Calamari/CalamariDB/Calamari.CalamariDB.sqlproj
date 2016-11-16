@@ -12,8 +12,8 @@
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
-    <RootNamespace>CalamariDB</RootNamespace>
-    <AssemblyName>CalamariDB</AssemblyName>
+    <RootNamespace>Calamari.CalamariDB</RootNamespace>
+    <AssemblyName>Calamari.CalamariDB</AssemblyName>
     <ModelCollation>1033,CI</ModelCollation>
     <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
     <DeployToDatabase>True</DeployToDatabase>

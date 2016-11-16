@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace Calamari.Controllers
+namespace Calamari.ClientPortal.Controllers
 {
     public class HomeController : Controller
     {

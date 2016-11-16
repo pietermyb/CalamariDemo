@@ -3,7 +3,7 @@ using Calamari.Service.Contracts;
 using System.Net;
 using System.Web.Mvc;
 
-namespace Calamari.Controllers
+namespace Calamari.ClientPortal.Controllers
 {
     public class ProductController : Controller
     {

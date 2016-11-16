@@ -1,4 +1,4 @@
-﻿using Calamari.Controllers;
+﻿using Calamari.ClientPortal.Controllers;
 using Calamari.Models;
 using Calamari.Service.Contracts;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -18,7 +18,6 @@ namespace Calamari.Tests
         [TestInitialize]
         public void Initialize()
         {
-
             _ProductServiceMock = new Mock<IProductService>();
             objController = new ProductController(_ProductServiceMock.Object);
             listProduct = new List<Product>() {
