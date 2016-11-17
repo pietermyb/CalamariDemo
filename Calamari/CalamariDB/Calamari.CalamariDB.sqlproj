@@ -72,6 +72,7 @@
     <None Include="CalamariDB.publish.xml" />
     <None Include="DEV.publish.xml" />
     <None Include="UAT.publish.xml" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="..\..\packages\OctoPack.3.4.2\tools\OctoPack.targets" Condition="Exists('..\..\packages\OctoPack.3.4.2\tools\OctoPack.targets')" />
   <Target Name="EnsureOctoPackImported" BeforeTargets="BeforeBuild" Condition="'$(OctoPackImported)' == ''">
